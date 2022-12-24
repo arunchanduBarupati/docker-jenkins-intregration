@@ -12,4 +12,10 @@ public class WelcomeController {
         return  "welcome to spring boot world";
     }
 
+    @GetMapping("/Jenkins/commit")
+    public String jenkinsCommit()
+    {
+        return  "Committing to start jenkins build";
+    }
+
 }
